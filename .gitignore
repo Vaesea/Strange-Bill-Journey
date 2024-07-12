@@ -1,3 +1,6 @@
+# SBJ specific ignores
+.export/
+
 # Godot 4+ specific ignores
 .godot/
 
