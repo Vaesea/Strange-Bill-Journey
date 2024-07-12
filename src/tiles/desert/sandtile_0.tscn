@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxy1468nk4mmk"]
+
+[ext_resource type="Texture2D" uid="uid://cdn26wqp3dtua" path="res://data/images/tiles/desert/sandtile_0.png" id="1_c0fud"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k32dk"]
+size = Vector2(32, 32)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="sand" type="Sprite2D" parent="."]
+position = Vector2(320, 256)
+texture = ExtResource("1_c0fud")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(320, 256)
+shape = SubResource("RectangleShape2D_k32dk")
