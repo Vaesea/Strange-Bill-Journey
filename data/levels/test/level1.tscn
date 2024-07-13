@@ -1,0 +1,349 @@
+[gd_scene load_steps=6 format=3 uid="uid://caeicpg3fr8vd"]
+
+[ext_resource type="PackedScene" uid="uid://c4r8cqksuvhxq" path="res://src/tiles/desert/sandtile_3.tscn" id="1_2bb8p"]
+[ext_resource type="PackedScene" uid="uid://ch3ddqq0afprr" path="res://src/tiles/desert/sandtile_1.tscn" id="2_rykta"]
+[ext_resource type="PackedScene" uid="uid://b4jt3640s2hcl" path="res://src/tiles/desert/sandtile_2.tscn" id="3_ge8b4"]
+[ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="4_ym80a"]
+[ext_resource type="AudioStream" uid="uid://d0wb4v7a55c54" path="res://data/audio/music/menu/desert_dream.mp3" id="5_6dw3s"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(0, 448)
+
+[node name="StaticBody2D2" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(32, 448)
+
+[node name="StaticBody2D3" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(64, 448)
+
+[node name="StaticBody2D4" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(96, 448)
+
+[node name="StaticBody2D5" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(128, 448)
+
+[node name="StaticBody2D6" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(160, 448)
+
+[node name="StaticBody2D7" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(192, 448)
+
+[node name="StaticBody2D8" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(224, 448)
+
+[node name="StaticBody2D9" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(256, 448)
+
+[node name="StaticBody2D10" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(288, 448)
+
+[node name="StaticBody2D11" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(320, 448)
+
+[node name="StaticBody2D12" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(352, 448)
+
+[node name="StaticBody2D13" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(384, 448)
+
+[node name="StaticBody2D14" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(416, 448)
+
+[node name="StaticBody2D15" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(448, 448)
+
+[node name="StaticBody2D16" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(480, 448)
+
+[node name="StaticBody2D17" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(512, 448)
+
+[node name="StaticBody2D18" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(544, 448)
+
+[node name="StaticBody2D19" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(576, 448)
+
+[node name="StaticBody2D20" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(608, 448)
+
+[node name="StaticBody2D21" parent="." instance=ExtResource("2_rykta")]
+position = Vector2(0, 416)
+
+[node name="StaticBody2D22" parent="." instance=ExtResource("3_ge8b4")]
+position = Vector2(608, 416)
+
+[node name="StaticBody2D23" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(32, 416)
+
+[node name="StaticBody2D24" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(64, 416)
+
+[node name="StaticBody2D25" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(96, 416)
+
+[node name="StaticBody2D26" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(128, 416)
+
+[node name="StaticBody2D27" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(160, 416)
+
+[node name="StaticBody2D28" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(192, 416)
+
+[node name="StaticBody2D29" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(224, 416)
+
+[node name="StaticBody2D30" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(256, 416)
+
+[node name="StaticBody2D31" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(288, 416)
+
+[node name="StaticBody2D32" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(320, 416)
+
+[node name="StaticBody2D33" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(352, 416)
+
+[node name="StaticBody2D34" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(384, 416)
+
+[node name="StaticBody2D35" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(416, 416)
+
+[node name="StaticBody2D36" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(448, 416)
+
+[node name="StaticBody2D37" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(480, 416)
+
+[node name="StaticBody2D38" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(512, 416)
+
+[node name="StaticBody2D39" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(544, 416)
+
+[node name="StaticBody2D40" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(576, 416)
+
+[node name="StaticBody2D41" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(768, 448)
+
+[node name="StaticBody2D42" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(800, 448)
+
+[node name="StaticBody2D43" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(832, 448)
+
+[node name="StaticBody2D44" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(864, 448)
+
+[node name="StaticBody2D45" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(896, 448)
+
+[node name="StaticBody2D62" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(928, 416)
+
+[node name="StaticBody2D66" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(960, 416)
+
+[node name="StaticBody2D67" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(992, 416)
+
+[node name="StaticBody2D68" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1024, 416)
+
+[node name="StaticBody2D69" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1056, 416)
+
+[node name="StaticBody2D70" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1088, 416)
+
+[node name="StaticBody2D71" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1120, 416)
+
+[node name="StaticBody2D72" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1152, 416)
+
+[node name="StaticBody2D73" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1184, 416)
+
+[node name="StaticBody2D74" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1216, 416)
+
+[node name="StaticBody2D75" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1248, 416)
+
+[node name="StaticBody2D76" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1280, 416)
+
+[node name="StaticBody2D77" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1312, 416)
+
+[node name="StaticBody2D78" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1344, 416)
+
+[node name="StaticBody2D79" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1376, 416)
+
+[node name="StaticBody2D46" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(928, 448)
+
+[node name="StaticBody2D47" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(960, 448)
+
+[node name="StaticBody2D48" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(992, 448)
+
+[node name="StaticBody2D49" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1024, 448)
+
+[node name="StaticBody2D50" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1056, 448)
+
+[node name="StaticBody2D51" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1088, 448)
+
+[node name="StaticBody2D52" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1120, 448)
+
+[node name="StaticBody2D53" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1152, 448)
+
+[node name="StaticBody2D54" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1184, 448)
+
+[node name="StaticBody2D55" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1216, 448)
+
+[node name="StaticBody2D56" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1248, 448)
+
+[node name="StaticBody2D57" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1280, 448)
+
+[node name="StaticBody2D58" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1312, 448)
+
+[node name="StaticBody2D59" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1344, 448)
+
+[node name="StaticBody2D60" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1376, 448)
+
+[node name="StaticBody2D61" parent="." instance=ExtResource("2_rykta")]
+position = Vector2(768, 416)
+
+[node name="StaticBody2D63" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(800, 416)
+
+[node name="StaticBody2D64" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(832, 416)
+
+[node name="StaticBody2D65" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(864, 416)
+
+[node name="StaticBody2D81" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(896, 384)
+
+[node name="StaticBody2D82" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(928, 384)
+
+[node name="StaticBody2D83" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(960, 384)
+
+[node name="StaticBody2D84" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(992, 384)
+
+[node name="StaticBody2D85" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1024, 384)
+
+[node name="StaticBody2D86" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1056, 384)
+
+[node name="StaticBody2D87" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1088, 384)
+
+[node name="StaticBody2D88" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1120, 384)
+
+[node name="StaticBody2D89" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1152, 384)
+
+[node name="StaticBody2D90" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1184, 384)
+
+[node name="StaticBody2D91" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1216, 384)
+
+[node name="StaticBody2D92" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1248, 384)
+
+[node name="StaticBody2D93" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1280, 384)
+
+[node name="StaticBody2D94" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1312, 384)
+
+[node name="StaticBody2D95" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1344, 384)
+
+[node name="StaticBody2D96" parent="." instance=ExtResource("1_2bb8p")]
+position = Vector2(1376, 384)
+
+[node name="StaticBody2D97" parent="." instance=ExtResource("3_ge8b4")]
+position = Vector2(1376, 352)
+
+[node name="StaticBody2D113" parent="." instance=ExtResource("3_ge8b4")]
+position = Vector2(896, 416)
+
+[node name="StaticBody2D98" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(896, 352)
+
+[node name="StaticBody2D99" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(928, 352)
+
+[node name="StaticBody2D100" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(960, 352)
+
+[node name="StaticBody2D101" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(992, 352)
+
+[node name="StaticBody2D102" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1024, 352)
+
+[node name="StaticBody2D103" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1056, 352)
+
+[node name="StaticBody2D104" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1088, 352)
+
+[node name="StaticBody2D105" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1120, 352)
+
+[node name="StaticBody2D106" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1152, 352)
+
+[node name="StaticBody2D107" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1184, 352)
+
+[node name="StaticBody2D108" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1216, 352)
+
+[node name="StaticBody2D109" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1248, 352)
+
+[node name="StaticBody2D110" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1280, 352)
+
+[node name="StaticBody2D111" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1312, 352)
+
+[node name="StaticBody2D112" parent="." instance=ExtResource("4_ym80a")]
+position = Vector2(1344, 352)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_6dw3s")
+autoplay = true
