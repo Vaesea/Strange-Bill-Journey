@@ -8,9 +8,9 @@ size = Vector2(32, 32)
 [node name="StaticBody2D" type="StaticBody2D"]
 
 [node name="sand" type="Sprite2D" parent="."]
-position = Vector2(320, 256)
+position = Vector2(16, 16)
 texture = ExtResource("1_u3vm6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(320, 256)
+position = Vector2(16, 16)
 shape = SubResource("RectangleShape2D_k32dk")
