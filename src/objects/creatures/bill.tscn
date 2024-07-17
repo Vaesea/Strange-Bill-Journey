@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://bbh3uk8ehe1rs"]
+
+[ext_resource type="Texture2D" uid="uid://clmnettwhagxj" path="res://data/images/objects/creatures/player/bill/sprite_0.png" id="1_clhh5"]
+[ext_resource type="Script" path="res://src/objects/creatures/bill.gd" id="1_hf46f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8h02k"]
+size = Vector2(18.8889, 21.4286)
+
+[node name="Bill" type="CharacterBody2D"]
+script = ExtResource("1_hf46f")
+
+[node name="Sprite0" type="Sprite2D" parent="."]
+texture_filter = 5
+position = Vector2(20, 18)
+texture = ExtResource("1_clhh5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(19, 17)
+scale = Vector2(1.8, 1.4)
+shape = SubResource("RectangleShape2D_8h02k")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-1, 20)
