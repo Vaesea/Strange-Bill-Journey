@@ -11,9 +11,16 @@ config_version=5
 [application]
 
 config/name="Strange Bill Journey"
-run/main_scene="res://src/menu/mainmenu.tscn"
+run/main_scene="res://play_game.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
+
+[debug]
+
+file_logging/enable_file_logging=true
+settings/stdout/print_fps=true
+settings/stdout/print_gpu_profile=true
+settings/stdout/verbose_stdout=true
 
 [display]
 
@@ -23,3 +30,4 @@ window/size/viewport_height=480
 [rendering]
 
 renderer/rendering_method="mobile"
+anti_aliasing/screen_space_roughness_limiter/enabled=false

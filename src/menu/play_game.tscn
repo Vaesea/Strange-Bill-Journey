@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b6exknlqyqnhr"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+offset_right = 192.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 30
+keep_pressed_outside = true
+text = "Play Game"
