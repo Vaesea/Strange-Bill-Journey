@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnea7pdfhkarv"]
+
+[ext_resource type="Texture2D" uid="uid://ciu1x1e0uel0v" path="res://data/images/objects/goal/sign/endsign_0.png" id="1_abo1u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lu632"]
+size = Vector2(32, 32)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(16, 16)
+shape = SubResource("RectangleShape2D_lu632")
+
+[node name="Endsign0" type="Sprite2D" parent="."]
+position = Vector2(16, 16)
+texture = ExtResource("1_abo1u")
