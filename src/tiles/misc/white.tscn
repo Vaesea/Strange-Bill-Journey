@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cydrhor58ycie"]
+
+[ext_resource type="Texture2D" uid="uid://cav76as0va1wn" path="res://data/images/tiles/misc/white.png" id="1_v3i4d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k32dk"]
+size = Vector2(32, 32)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="sand" type="Sprite2D" parent="."]
+texture_filter = 5
+position = Vector2(16, 16)
+texture = ExtResource("1_v3i4d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+texture_filter = 5
+position = Vector2(16, 16)
+scale = Vector2(1, 1.00475)
+shape = SubResource("RectangleShape2D_k32dk")
