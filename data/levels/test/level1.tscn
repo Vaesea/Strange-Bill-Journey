@@ -1,11 +1,13 @@
-[gd_scene load_steps=7 format=3 uid="uid://caeicpg3fr8vd"]
+[gd_scene load_steps=9 format=3 uid="uid://caeicpg3fr8vd"]
 
 [ext_resource type="PackedScene" uid="uid://c4r8cqksuvhxq" path="res://src/tiles/desert/sandtile_3.tscn" id="1_2bb8p"]
 [ext_resource type="PackedScene" uid="uid://ch3ddqq0afprr" path="res://src/tiles/desert/sandtile_1.tscn" id="2_rykta"]
 [ext_resource type="PackedScene" uid="uid://b4jt3640s2hcl" path="res://src/tiles/desert/sandtile_2.tscn" id="3_ge8b4"]
 [ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="4_ym80a"]
 [ext_resource type="AudioStream" uid="uid://d0wb4v7a55c54" path="res://media/audio/music/menu/desert_dream.mp3" id="5_6dw3s"]
-[ext_resource type="Texture2D" uid="uid://ciu1x1e0uel0v" path="res://data/images/objects/goal/sign/endsign_0.png" id="6_32akt"]
+[ext_resource type="PackedScene" uid="uid://bbh3uk8ehe1rs" path="res://src/objects/creatures/bill.tscn" id="7_10xf4"]
+[ext_resource type="PackedScene" uid="uid://dnea7pdfhkarv" path="res://src/objects/goal/endsign.tscn" id="8_452wk"]
+[ext_resource type="PackedScene" uid="uid://dew0f4oq43ayl" path="res://src/tiles/misc/black.tscn" id="8_au3jt"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -1681,6 +1683,20 @@ position = Vector2(4864, 448)
 [node name="StaticBody2D93" parent="." instance=ExtResource("2_rykta")]
 position = Vector2(2016, 288)
 
-[node name="Endsign0" type="Sprite2D" parent="."]
-position = Vector2(4656, 336)
-texture = ExtResource("6_32akt")
+[node name="Bill" parent="." instance=ExtResource("7_10xf4")]
+position = Vector2(64, 384)
+
+[node name="StaticBody2D59" parent="." instance=ExtResource("8_au3jt")]
+position = Vector2(0, 480)
+scale = Vector2(153, 26.8)
+
+[node name="StaticBody2D477" parent="." instance=ExtResource("8_au3jt")]
+position = Vector2(4896, -384)
+scale = Vector2(153, 72)
+
+[node name="StaticBody2D60" parent="." instance=ExtResource("8_au3jt")]
+position = Vector2(-1.13687e-13, 1312)
+scale = Vector2(-61.4, -60.4)
+
+[node name="StaticBody2D560" parent="." instance=ExtResource("8_452wk")]
+position = Vector2(4640, 320)
