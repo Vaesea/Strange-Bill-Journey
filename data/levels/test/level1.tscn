@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://ch3ddqq0afprr" path="res://src/tiles/desert/sandtile_1.tscn" id="2_rykta"]
 [ext_resource type="PackedScene" uid="uid://b4jt3640s2hcl" path="res://src/tiles/desert/sandtile_2.tscn" id="3_ge8b4"]
 [ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="4_ym80a"]
-[ext_resource type="AudioStream" uid="uid://d0wb4v7a55c54" path="res://media/audio/music/menu/desert_dream.mp3" id="5_6dw3s"]
+[ext_resource type="AudioStream" uid="uid://b5l3vi4ta1d86" path="res://data/audio/music/level/desert/desert 1.mp3" id="5_swnxy"]
 [ext_resource type="PackedScene" uid="uid://bbh3uk8ehe1rs" path="res://src/objects/creatures/bill.tscn" id="7_10xf4"]
 [ext_resource type="PackedScene" uid="uid://dnea7pdfhkarv" path="res://src/objects/goal/endsign.tscn" id="8_452wk"]
 [ext_resource type="PackedScene" uid="uid://dew0f4oq43ayl" path="res://src/tiles/misc/black.tscn" id="8_au3jt"]
@@ -1257,7 +1257,7 @@ position = Vector2(1728, 352)
 position = Vector2(1760, 352)
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("5_6dw3s")
+stream = ExtResource("5_swnxy")
 autoplay = true
 
 [node name="StaticBody2D57" parent="." instance=ExtResource("2_rykta")]
