@@ -7,6 +7,8 @@
 size = Vector2(18.8889, 21.4286)
 
 [node name="Bill" type="CharacterBody2D"]
+visibility_layer = 2
+texture_filter = 5
 script = ExtResource("1_hf46f")
 
 [node name="Sprite0" type="Sprite2D" parent="."]
