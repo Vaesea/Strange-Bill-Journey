@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://c3p2315hlrilf"]
+[gd_scene load_steps=25 format=3 uid="uid://c3p2315hlrilf"]
 
 [ext_resource type="Script" path="res://Button.gd" id="1_4nmy8"]
 [ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="2_l3anl"]
@@ -18,10 +18,11 @@
 [ext_resource type="Texture2D" uid="uid://mypt8ewqrgme" path="res://data/images/tiles/liquid/poison/poison_1.png" id="16_r6igh"]
 [ext_resource type="Texture2D" uid="uid://bfko30kpjab8c" path="res://data/images/tiles/liquid/lava/lava_1.png" id="17_56ryj"]
 [ext_resource type="Texture2D" uid="uid://intoybp8gb05" path="res://data/images/tiles/liquid/acid/acid_1.png" id="18_v10gi"]
-[ext_resource type="Texture2D" uid="uid://v6qyewwxx7ve" path="res://data/images/tiles/desert/sandtile_3.png" id="19_pgffk"]
-[ext_resource type="Texture2D" uid="uid://bg43jktxg0vbk" path="res://data/images/tiles/desert/sandtile_1.png" id="20_g16jx"]
-[ext_resource type="Texture2D" uid="uid://cmh5swv5214j2" path="res://data/images/tiles/desert/sandtile_2.png" id="21_bp8h0"]
+[ext_resource type="Texture2D" uid="uid://v6qyewwxx7ve" path="res://media/images/tiles/desert/sandtile_3.png" id="19_pgffk"]
+[ext_resource type="Texture2D" uid="uid://bg43jktxg0vbk" path="res://media/images/tiles/desert/sandtile_1.png" id="20_g16jx"]
+[ext_resource type="Texture2D" uid="uid://cmh5swv5214j2" path="res://media/images/tiles/desert/sandtile_2.png" id="21_bp8h0"]
 [ext_resource type="Texture2D" uid="uid://bayqjywhr2qae" path="res://data/images/objects/creatures/player/bill/sprite_1.png" id="22_l23ks"]
+[ext_resource type="AudioStream" uid="uid://c1anv33l0j7x5" path="res://data/audio/music/menu/journey.mp3" id="23_cei6o"]
 
 [sub_resource type="FontFile" id="FontFile_jd6ir"]
 cache/0/16/0/ascent = 0.0
@@ -31,7 +32,7 @@ cache/0/16/0/underline_thickness = 0.0
 cache/0/16/0/scale = 1.0
 cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
-[node name="Node2D" type="Node2D"]
+[node name="Menu" type="Node2D"]
 position = Vector2(232, 256)
 
 [node name="Button" type="Button" parent="."]
@@ -281,7 +282,6 @@ texture = ExtResource("17_56ryj")
 
 [node name="Lava2" type="Sprite2D" parent="."]
 position = Vector2(264, 208)
-scale = Vector2(1, 1)
 texture = ExtResource("17_56ryj")
 
 [node name="Acid1" type="Sprite2D" parent="."]
@@ -304,7 +304,7 @@ texture = ExtResource("21_bp8h0")
 
 [node name="Sprite1" type="Sprite2D" parent="."]
 texture_filter = 5
-position = Vector2(313, 111)
+position = Vector2(312, 114)
 scale = Vector2(-1, 1)
 texture = ExtResource("22_l23ks")
 
@@ -317,5 +317,9 @@ scale = Vector2(1.3, 1.3)
 theme_override_fonts/bold_font = SubResource("FontFile_jd6ir")
 theme_override_font_sizes/bold_font_size = 0
 text = "Strange Bill Journey"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("23_cei6o")
+autoplay = true
 
 [connection signal="button_down" from="Button" to="Button" method="_on_button_down"]
