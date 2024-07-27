@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://dv8qv2vnc0wot"]
 
-[ext_resource type="Texture2D" uid="uid://v6qyewwxx7ve" path="res://media/images/tiles/desert/sandtile_3.png" id="1_gwqrn"]
-[ext_resource type="Texture2D" uid="uid://cdn26wqp3dtua" path="res://media/images/tiles/desert/sandtile_0.png" id="2_gt1po"]
-[ext_resource type="AudioStream" uid="uid://d0wb4v7a55c54" path="res://media/audio/music/menu/desert_dream.mp3" id="3_nuq2m"]
+[ext_resource type="Texture2D" uid="uid://v6qyewwxx7ve" path="res://data/images/tiles/desert/sandtile_3.png" id="1_gwqrn"]
+[ext_resource type="Texture2D" uid="uid://cdn26wqp3dtua" path="res://data/images/tiles/desert/sandtile_0.png" id="2_gt1po"]
+[ext_resource type="AudioStream" uid="uid://c1anv33l0j7x5" path="res://data/audio/music/menu/journey.mp3" id="3_5k7ny"]
 [ext_resource type="PackedScene" uid="uid://b6exknlqyqnhr" path="res://src/menu/play_game.tscn" id="4_hl11f"]
 
 [sub_resource type="GDScript" id="GDScript_mabnc"]
@@ -104,7 +104,7 @@ theme_override_font_sizes/normal_font_size = 29
 text = "Strange Bill Journey"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("3_nuq2m")
+stream = ExtResource("3_5k7ny")
 autoplay = true
 
 [node name="Node2D" parent="." instance=ExtResource("4_hl11f")]
