@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://f2432y3pkwf3"
+path="res://.godot/imported/desert worldmap.mp3-140c24d6924cafdad8a04a092abd3bec.mp3str"
+
+[deps]
+
+source_file="res://data/audio/music/level/desert/desert worldmap.mp3"
+dest_files=["res://.godot/imported/desert worldmap.mp3-140c24d6924cafdad8a04a092abd3bec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

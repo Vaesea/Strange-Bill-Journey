@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmrmgr6fbfp3e"
+path="res://.godot/imported/desert cave worldmap.mp3-b2f0e2d56cf54f3865916d985aa6eba6.mp3str"
+
+[deps]
+
+source_file="res://data/audio/music/level/desert/desert cave worldmap.mp3"
+dest_files=["res://.godot/imported/desert cave worldmap.mp3-b2f0e2d56cf54f3865916d985aa6eba6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
