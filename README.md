@@ -16,4 +16,4 @@ Fourth Number is very minor, so let's say it's 4 for example. 0 means it's eiteh
 
 The example version said here is 1.2.3.4, not creative, I know.
 
-A few of the assets are also licensed under CC-by-SA (Creative Commons BY Share Alike)
+A few of the assets are also licensed under CC-by-SA (Creative Commons Attribution Share Alike, I think the BY is Attribution. Don't worry, credits are in the CREDITS.md and will be in-game once I make the credits menu, which will be before Milestone 1!)
