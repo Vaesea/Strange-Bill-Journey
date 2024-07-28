@@ -5,7 +5,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lu632"]
 size = Vector2(32, 32)
 
-[node name="StaticBody2D" type="StaticBody2D"]
+[node name="EndSign" type="StaticBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(16, 16)
