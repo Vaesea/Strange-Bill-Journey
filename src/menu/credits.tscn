@@ -1,0 +1,53 @@
+[gd_scene load_steps=5 format=3 uid="uid://b0v4vf37fmv2d"]
+
+[ext_resource type="Texture2D" uid="uid://ckrgxq66tui65" path="res://data/images/backgrounds/sbjcredits.png" id="1_fnfll"]
+[ext_resource type="Texture2D" uid="uid://bi1j0va4o7s4l" path="res://data/images/objects/creatures/player/bill/jumpsprite_1.png" id="2_81wv6"]
+[ext_resource type="Script" path="res://src/menu/backmenu.gd" id="3_tvpev"]
+[ext_resource type="AudioStream" uid="uid://dbldjk1f03jww" path="res://data/audio/music/level/desert/69478-sage13.mp3" id="4_je2i7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sbjcredits" type="Sprite2D" parent="."]
+modulate = Color(0.374139, 0.374139, 0.374139, 1)
+position = Vector2(640, 360)
+texture = ExtResource("1_fnfll")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_direction = 2
+offset_left = 46.0
+offset_top = 32.0
+offset_right = 1326.0
+offset_bottom = 492.0
+theme_override_font_sizes/normal_font_size = 33
+theme_override_font_sizes/bold_font_size = 66
+theme_override_font_sizes/italics_font_size = 66
+theme_override_font_sizes/bold_italics_font_size = 66
+theme_override_font_sizes/mono_font_size = 66
+bbcode_enabled = true
+text = "MILESTONE 0 CREDITS
+EggsAndBakey / Sefevi - Desert Tiles, Coding, Wasteland Tiles, Most Desert Music, Wasteland Music, Journey, Main Developer
+Sage + https://modarchive.org - Songea4 / 69478-sage13.xm
+Godot - Godot Game Engine, used to create this game.
+YouTube Tutorials - I would've lost my mind if these didn't exist!
+
+These credits are a simplified version of the CREDITS.md file!
+See you next time, in the air of Doz Desert, the cave of Doz Desert and the castle of Doz Desert..."
+fit_content = true
+scroll_following = true
+tab_size = 6
+
+[node name="Button" type="Button" parent="."]
+offset_left = 794.0
+offset_top = 653.0
+offset_right = 1269.0
+offset_bottom = 712.0
+theme_override_font_sizes/font_size = 37
+text = "Go Back To Main Menu"
+icon = ExtResource("2_81wv6")
+script = ExtResource("3_tvpev")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_je2i7")
+autoplay = true
+
+[connection signal="button_down" from="Button" to="Button" method="_on_button_down"]
