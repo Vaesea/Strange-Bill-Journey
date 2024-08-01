@@ -1,28 +1,38 @@
-[gd_scene load_steps=25 format=3 uid="uid://c3p2315hlrilf"]
+[gd_scene load_steps=11 format=3 uid="uid://c3p2315hlrilf"]
 
 [ext_resource type="Script" path="res://Button.gd" id="1_4nmy8"]
-[ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="2_l3anl"]
-[ext_resource type="Texture2D" uid="uid://tygu6nyq8vq1" path="res://data/images/tiles/wasteland/wasteland_00.png" id="3_juylv"]
-[ext_resource type="Texture2D" uid="uid://cmdk7saar54wh" path="res://data/images/tiles/wasteland/wasteland_01.png" id="4_q3ctx"]
-[ext_resource type="Texture2D" uid="uid://dbjdv23cjh0xa" path="res://data/images/tiles/wasteland/wasteland_06.png" id="5_x2n4q"]
-[ext_resource type="Texture2D" uid="uid://4u8dq6gnh767" path="res://data/images/tiles/wasteland/wasteland_05.png" id="6_p20xv"]
-[ext_resource type="Texture2D" uid="uid://s40oj4htawcm" path="res://data/images/tiles/wasteland/wasteland_02.png" id="7_xfp1q"]
-[ext_resource type="Texture2D" uid="uid://duq53wsy1japq" path="res://data/images/tiles/wasteland/wasteland_08.png" id="8_p8tyt"]
-[ext_resource type="Texture2D" uid="uid://dow2lmepcoukp" path="res://data/images/tiles/wasteland/spikes/spike_0.png" id="9_d16fm"]
-[ext_resource type="Texture2D" uid="uid://xv0w0420esh7" path="res://data/images/tiles/wasteland/spikes/spike_2.png" id="10_3iu1f"]
-[ext_resource type="Texture2D" uid="uid://mm4req5fkdtx" path="res://data/images/tiles/liquid/water/water_1.png" id="11_pmngf"]
-[ext_resource type="Texture2D" uid="uid://cvkw0lmvudg3p" path="res://data/images/tiles/rainbow/rainbow_1.png" id="12_k8s11"]
-[ext_resource type="Texture2D" uid="uid://ca84ujqud7wf1" path="res://data/images/tiles/rainbow/rainbow_5.png" id="13_ppsbf"]
-[ext_resource type="Texture2D" uid="uid://m0y53exvpk2i" path="res://data/images/tiles/rainbow/rainbow_0.png" id="14_d3h6e"]
-[ext_resource type="Texture2D" uid="uid://ddlsolre6yog7" path="res://data/images/tiles/rainbow/rainbow_4.png" id="15_8g42g"]
-[ext_resource type="Texture2D" uid="uid://mypt8ewqrgme" path="res://data/images/tiles/liquid/poison/poison_1.png" id="16_r6igh"]
-[ext_resource type="Texture2D" uid="uid://bfko30kpjab8c" path="res://data/images/tiles/liquid/lava/lava_1.png" id="17_56ryj"]
-[ext_resource type="Texture2D" uid="uid://intoybp8gb05" path="res://data/images/tiles/liquid/acid/acid_1.png" id="18_v10gi"]
-[ext_resource type="Texture2D" uid="uid://v6qyewwxx7ve" path="res://media/images/tiles/desert/sandtile_3.png" id="19_pgffk"]
-[ext_resource type="Texture2D" uid="uid://bg43jktxg0vbk" path="res://media/images/tiles/desert/sandtile_1.png" id="20_g16jx"]
-[ext_resource type="Texture2D" uid="uid://cmh5swv5214j2" path="res://media/images/tiles/desert/sandtile_2.png" id="21_bp8h0"]
+[ext_resource type="Texture2D" uid="uid://ckrgxq66tui65" path="res://data/images/backgrounds/sbjcredits.png" id="1_y8o3u"]
+[ext_resource type="Texture2D" uid="uid://cs1psoorawy4q" path="res://data/images/menuicons/menuplayicon.png" id="2_0ito1"]
+[ext_resource type="Texture2D" uid="uid://bkryxci2fcsq6" path="res://data/images/objects/creatures/player/bill/jumpsprite_2.png" id="5_cnh5n"]
+[ext_resource type="Script" path="res://tocredits.gd" id="7_27r3r"]
 [ext_resource type="Texture2D" uid="uid://bayqjywhr2qae" path="res://data/images/objects/creatures/player/bill/sprite_1.png" id="22_l23ks"]
 [ext_resource type="AudioStream" uid="uid://c1anv33l0j7x5" path="res://data/audio/music/menu/journey.mp3" id="23_cei6o"]
+
+[sub_resource type="FontFile" id="FontFile_u6src"]
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+cache/0/40/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/40/0 = Vector2(0, 0)
 
 [sub_resource type="FontFile" id="FontFile_jd6ir"]
 cache/0/16/0/ascent = 0.0
@@ -32,294 +42,77 @@ cache/0/16/0/underline_thickness = 0.0
 cache/0/16/0/scale = 1.0
 cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
+[sub_resource type="FontFile" id="FontFile_6aq5d"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+cache/0/40/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/40/0 = Vector2(0, 0)
+
 [node name="Menu" type="Node2D"]
 position = Vector2(232, 256)
 
+[node name="Sbjcredits" type="Sprite2D" parent="."]
+modulate = Color(0.317835, 0.326582, 0.249032, 1)
+position = Vector2(408, 104)
+texture = ExtResource("1_y8o3u")
+
 [node name="Button" type="Button" parent="."]
-offset_left = -8.0
-offset_right = 184.0
-offset_bottom = 64.0
-theme_override_font_sizes/font_size = 30
+offset_left = -208.0
+offset_top = 192.0
+offset_right = 56.0
+offset_bottom = 269.0
+theme_override_fonts/font = SubResource("FontFile_u6src")
+theme_override_font_sizes/font_size = 40
 keep_pressed_outside = true
 text = "Play Game"
+icon = ExtResource("2_0ito1")
 script = ExtResource("1_4nmy8")
 metadata/_edit_use_anchors_ = true
 
-[node name="StaticBody2D2" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(-200, 192)
-
-[node name="StaticBody2D3" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(-168, 192)
-
-[node name="StaticBody2D5" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(-104, 192)
-
-[node name="StaticBody2D7" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(-40, 192)
-
-[node name="StaticBody2D9" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(24, 192)
-
-[node name="StaticBody2D11" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(88, 192)
-
-[node name="StaticBody2D13" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(152, 192)
-
-[node name="StaticBody2D15" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(216, 192)
-
-[node name="StaticBody2D17" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(280, 192)
-
-[node name="StaticBody2D18" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(312, 192)
-
-[node name="StaticBody2D19" parent="." instance=ExtResource("2_l3anl")]
-position = Vector2(344, 192)
-
-[node name="Wasteland00" type="Sprite2D" parent="."]
-position = Vector2(-216, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland02" type="Sprite2D" parent="."]
-position = Vector2(-88, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland01" type="Sprite2D" parent="."]
-position = Vector2(-152, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland03" type="Sprite2D" parent="."]
-position = Vector2(-24, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland04" type="Sprite2D" parent="."]
-position = Vector2(104, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland05" type="Sprite2D" parent="."]
-position = Vector2(40, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland06" type="Sprite2D" parent="."]
-position = Vector2(168, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland07" type="Sprite2D" parent="."]
-position = Vector2(296, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland09" type="Sprite2D" parent="."]
-position = Vector2(360, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland08" type="Sprite2D" parent="."]
-position = Vector2(232, 176)
-texture = ExtResource("3_juylv")
-
-[node name="Wasteland10" type="Sprite2D" parent="."]
-position = Vector2(-216, 144)
-texture = ExtResource("4_q3ctx")
-
-[node name="Wasteland12" type="Sprite2D" parent="."]
-position = Vector2(-184, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland13" type="Sprite2D" parent="."]
-position = Vector2(-120, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland11" type="Sprite2D" parent="."]
-position = Vector2(-152, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland14" type="Sprite2D" parent="."]
-position = Vector2(-56, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland15" type="Sprite2D" parent="."]
-position = Vector2(-88, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland16" type="Sprite2D" parent="."]
-position = Vector2(8, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland17" type="Sprite2D" parent="."]
-position = Vector2(-24, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland18" type="Sprite2D" parent="."]
-position = Vector2(72, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland19" type="Sprite2D" parent="."]
-position = Vector2(40, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland20" type="Sprite2D" parent="."]
-position = Vector2(136, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland21" type="Sprite2D" parent="."]
-position = Vector2(104, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland22" type="Sprite2D" parent="."]
-position = Vector2(200, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland23" type="Sprite2D" parent="."]
-position = Vector2(168, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland24" type="Sprite2D" parent="."]
-position = Vector2(264, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland25" type="Sprite2D" parent="."]
-position = Vector2(232, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland26" type="Sprite2D" parent="."]
-position = Vector2(328, 144)
-texture = ExtResource("5_x2n4q")
-
-[node name="Wasteland27" type="Sprite2D" parent="."]
-position = Vector2(296, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland29" type="Sprite2D" parent="."]
-position = Vector2(360, 144)
-texture = ExtResource("6_p20xv")
-
-[node name="Wasteland28" type="Sprite2D" parent="."]
-position = Vector2(392, 144)
-texture = ExtResource("7_xfp1q")
-
-[node name="Wasteland30" type="Sprite2D" parent="."]
-position = Vector2(392, 176)
-texture = ExtResource("8_p8tyt")
-
-[node name="Spike0" type="Sprite2D" parent="."]
-position = Vector2(40, 112)
-texture = ExtResource("9_d16fm")
-
-[node name="Spike1" type="Sprite2D" parent="."]
-position = Vector2(72, 112)
-texture = ExtResource("9_d16fm")
-
-[node name="Spike2" type="Sprite2D" parent="."]
-position = Vector2(-56, 155)
-texture = ExtResource("10_3iu1f")
-
-[node name="Spike3" type="Sprite2D" parent="."]
-position = Vector2(168, 155)
-texture = ExtResource("10_3iu1f")
-
-[node name="Water1" type="Sprite2D" parent="."]
-position = Vector2(8, 208)
-texture = ExtResource("11_pmngf")
-
-[node name="Water3" type="Sprite2D" parent="."]
-position = Vector2(136, 208)
-texture = ExtResource("11_pmngf")
-
-[node name="Rainbow1" type="Sprite2D" parent="."]
-position = Vector2(-216, -48)
-texture = ExtResource("12_k8s11")
-
-[node name="Rainbow7" type="Sprite2D" parent="."]
-position = Vector2(24, -64)
-texture = ExtResource("13_ppsbf")
-
-[node name="Rainbow8" type="Sprite2D" parent="."]
-position = Vector2(72, -80)
-texture = ExtResource("14_d3h6e")
-
-[node name="Rainbow15" type="Sprite2D" parent="."]
-position = Vector2(-104, -48)
-scale = Vector2(6, 1)
-texture = ExtResource("14_d3h6e")
-
-[node name="Rainbow9" type="Sprite2D" parent="."]
-position = Vector2(120, -96)
-texture = ExtResource("13_ppsbf")
-
-[node name="Rainbow10" type="Sprite2D" parent="."]
-position = Vector2(168, -112)
-texture = ExtResource("14_d3h6e")
-
-[node name="Rainbow11" type="Sprite2D" parent="."]
-position = Vector2(216, -96)
-texture = ExtResource("15_8g42g")
-
-[node name="Rainbow12" type="Sprite2D" parent="."]
-position = Vector2(264, -80)
-texture = ExtResource("14_d3h6e")
-
-[node name="Rainbow13" type="Sprite2D" parent="."]
-position = Vector2(312, -64)
-texture = ExtResource("15_8g42g")
-
-[node name="Rainbow14" type="Sprite2D" parent="."]
-position = Vector2(376, -48)
-scale = Vector2(2, 1)
-texture = ExtResource("14_d3h6e")
-
-[node name="Poison1" type="Sprite2D" parent="."]
-position = Vector2(-56, 208)
-texture = ExtResource("16_r6igh")
-
-[node name="Poison2" type="Sprite2D" parent="."]
-position = Vector2(200, 208)
-texture = ExtResource("16_r6igh")
-
-[node name="Lava1" type="Sprite2D" parent="."]
-position = Vector2(-120, 208)
-texture = ExtResource("17_56ryj")
-
-[node name="Lava2" type="Sprite2D" parent="."]
-position = Vector2(264, 208)
-texture = ExtResource("17_56ryj")
-
-[node name="Acid1" type="Sprite2D" parent="."]
-position = Vector2(72, 208)
-texture = ExtResource("18_v10gi")
-
-[node name="Sandtile3" type="Sprite2D" parent="."]
-z_index = -1
-position = Vector2(88, -16)
-scale = Vector2(20, 15)
-texture = ExtResource("19_pgffk")
-
-[node name="Sandtile1" type="Sprite2D" parent="."]
-position = Vector2(-216, 208)
-texture = ExtResource("20_g16jx")
-
-[node name="Sandtile2" type="Sprite2D" parent="."]
-position = Vector2(392, 208)
-texture = ExtResource("21_bp8h0")
-
 [node name="Sprite1" type="Sprite2D" parent="."]
 texture_filter = 5
-position = Vector2(312, 114)
-scale = Vector2(-1, 1)
+position = Vector2(936, 368)
+scale = Vector2(-4.2189, 4.2189)
 texture = ExtResource("22_l23ks")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-offset_left = -224.0
-offset_top = -248.0
-offset_right = -62.0
-offset_bottom = -219.0
+offset_left = -208.0
+offset_top = -264.0
+offset_right = 223.0
+offset_bottom = -49.0
 scale = Vector2(1.3, 1.3)
+theme_override_colors/default_color = Color(1, 0.900352, 0.71379, 1)
+theme_override_colors/font_selected_color = Color(0.680405, 0.488536, 0.294072, 1)
 theme_override_fonts/bold_font = SubResource("FontFile_jd6ir")
-theme_override_font_sizes/bold_font_size = 0
+theme_override_font_sizes/normal_font_size = 69
+theme_override_font_sizes/bold_font_size = 13
 text = "Strange Bill Journey"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("23_cei6o")
 autoplay = true
 
+[node name="tocredits" type="Button" parent="."]
+offset_left = 808.0
+offset_top = 192.0
+offset_right = 1024.0
+offset_bottom = 269.0
+theme_override_fonts/font = SubResource("FontFile_6aq5d")
+theme_override_font_sizes/font_size = 40
+text = "Credits"
+icon = ExtResource("5_cnh5n")
+script = ExtResource("7_27r3r")
+
 [connection signal="button_down" from="Button" to="Button" method="_on_button_down"]
+[connection signal="button_down" from="tocredits" to="Button" method="_on_tocredits_button_down"]
+[connection signal="button_down" from="tocredits" to="tocredits" method="_on_button_down"]
