@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8h02k"]
 size = Vector2(16.6667, 18.5714)
 
-[node name="Bill" type="CharacterBody2D"]
+[node name="Bill" type="CharacterBody2D" groups=["Bill"]]
 visibility_layer = 2
 texture_filter = 5
 script = ExtResource("1_hf46f")
@@ -23,6 +23,12 @@ shape = SubResource("RectangleShape2D_8h02k")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(-1, 20)
+offset = Vector2(0, -250)
+limit_top = 0
+limit_bottom = -720
+drag_horizontal_offset = 0.5
+editor_draw_limits = true
+editor_draw_drag_margin = true
 
 [node name="CoyoteTimer" type="Timer" parent="."]
 wait_time = 0.484
