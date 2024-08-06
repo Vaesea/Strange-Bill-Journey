@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccab7eiqtvcvi"]
+
+[ext_resource type="Texture2D" uid="uid://ckrgxq66tui65" path="res://data/images/backgrounds/sbjcredits.png" id="1_dphsl"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+follow_viewport_enabled = true
+follow_viewport_scale = 0.665
+scroll_base_scale = Vector2(0.46, 0.46)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_repeat = 2
+position = Vector2(640, 360)
+texture = ExtResource("1_dphsl")

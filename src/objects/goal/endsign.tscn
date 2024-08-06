@@ -1,16 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://dnea7pdfhkarv"]
+[gd_scene load_steps=4 format=3 uid="uid://dnea7pdfhkarv"]
 
+[ext_resource type="Script" path="res://src/objects/goal/endsign.gd" id="1_86gu7"]
 [ext_resource type="Texture2D" uid="uid://ciu1x1e0uel0v" path="res://data/images/objects/goal/sign/endsign_0.png" id="1_abo1u"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_lu632"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ssysk"]
 size = Vector2(32, 32)
 
-[node name="EndSign" type="StaticBody2D"]
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_86gu7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(16, 16)
-shape = SubResource("RectangleShape2D_lu632")
+shape = SubResource("RectangleShape2D_ssysk")
 
-[node name="Endsign0" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(16, 16)
 texture = ExtResource("1_abo1u")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

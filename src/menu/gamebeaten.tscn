@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://2ik535bedh4d"]
+
+[ext_resource type="Script" path="res://beatgame.gd" id="1_3674o"]
+[ext_resource type="Texture2D" uid="uid://c8o8au1cbei16" path="res://data/images/backgrounds/desertbg1/sky.png" id="2_xn6o6"]
+[ext_resource type="Texture2D" uid="uid://dc4ijkv5365v1" path="res://data/images/backgrounds/desertbg1/mountains.png" id="3_qtb3d"]
+[ext_resource type="AudioStream" uid="uid://ch7e6thqoc5ap" path="res://data/audio/sounds/fanfare03.ogg" id="4_wb7dp"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_3674o")
+
+[node name="Sky" type="Sprite2D" parent="."]
+position = Vector2(640, 384)
+scale = Vector2(2, 2.13333)
+texture = ExtResource("2_xn6o6")
+
+[node name="Mountains" type="Sprite2D" parent="."]
+position = Vector2(640, 385.5)
+scale = Vector2(2, 2.125)
+texture = ExtResource("3_qtb3d")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1280.0
+offset_bottom = 736.0
+theme_override_colors/default_color = Color(0.34228, 0.232839, 0, 1)
+theme_override_colors/font_selected_color = Color(0, 0, 0, 1)
+theme_override_colors/selection_color = Color(0.488638, 0.312414, 0.182031, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/normal_font_size = 20
+bbcode_enabled = true
+text = "You beat 0.0.1 of Strange Bill Journey!
+Congratulations!
+You will soon be brought to the credits!
+
+This game is still unfinished, but you can contribute to the GitHub repository of this game!
+https://www.github.com/EggsAndBakey/Strange-Bill-Journey
+
+See you next time, when the power circle has been invented!"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_wb7dp")
+autoplay = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,48 @@
+[gd_scene load_steps=7 format=3 uid="uid://bmd71nyjk8ruq"]
+
+[ext_resource type="Texture2D" uid="uid://c8o8au1cbei16" path="res://data/images/backgrounds/desertbg1/sky.png" id="1_84vty"]
+[ext_resource type="Texture2D" uid="uid://dou15qosrhdd4" path="res://data/images/backgrounds/desertbg1/cloud1.png" id="2_qvoxs"]
+[ext_resource type="Texture2D" uid="uid://conwwwf5br6ub" path="res://data/images/backgrounds/desertbg1/cloud2.png" id="3_i3b2v"]
+[ext_resource type="Texture2D" uid="uid://bdoxqw6olvxg6" path="res://data/images/backgrounds/desertbg1/hills.png" id="4_u5gd5"]
+[ext_resource type="Texture2D" uid="uid://dc4ijkv5365v1" path="res://data/images/backgrounds/desertbg1/mountains.png" id="5_atw7d"]
+[ext_resource type="Texture2D" uid="uid://bw2hykhps5ybp" path="res://data/images/backgrounds/desertbg1/frontsand.png" id="6_yuxyk"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+offset = Vector2(-0.01, 1.44)
+scale = Vector2(1.5, 1.5)
+transform = Transform2D(1.5, 0, 0, 1.5, -0.01, 1.44)
+follow_viewport_scale = 0.0
+scroll_base_offset = Vector2(-39.92, 0)
+scroll_base_scale = Vector2(0, 0)
+
+[node name="Sky" type="Sprite2D" parent="."]
+texture_filter = 3
+position = Vector2(320.902, 180.226)
+scale = Vector2(1.00282, 1.00125)
+texture = ExtResource("1_84vty")
+
+[node name="Cloud1" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(285.714, 144.361)
+texture = ExtResource("2_qvoxs")
+
+[node name="Cloud2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(315.789, 177.444)
+texture = ExtResource("3_i3b2v")
+
+[node name="Hills" type="Sprite2D" parent="."]
+position = Vector2(320.902, 183.684)
+scale = Vector2(1.00282, 1.00125)
+texture = ExtResource("4_u5gd5")
+
+[node name="Mountains" type="Sprite2D" parent="."]
+position = Vector2(320.902, 174.662)
+scale = Vector2(1.00282, 1.00125)
+texture = ExtResource("5_atw7d")
+
+[node name="Frontsand" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(320.902, 183.684)
+scale = Vector2(1.00282, 1.00125)
+texture = ExtResource("6_yuxyk")
