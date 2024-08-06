@@ -5,7 +5,7 @@ Sage + https://modarchive.org - Songea4 / 69478-sage13.xm from Modarchive, with 
 
 Godot Developers and Godot Contributors - Godot is the main thing used to create this game.
 
-Beau Buckley + https://opengamert.org - Fanfare 03 / fanfare03 https://opengameart.org/content/fanfare-03 used for the end of the game before the credits
+Beau Buckley + https://www.opengameart.org - Fanfare 03 / fanfare03 https://opengameart.org/content/fanfare-03 used for the end of the game before the credits
 
 YouTube Tutorials - Really saved me when I was losing my mind.
 
