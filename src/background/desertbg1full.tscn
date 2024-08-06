@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3 uid="uid://cr6mt7eu5eq4s"]
+
+[ext_resource type="Texture2D" uid="uid://1cou0ykxcu2b" path="res://data/images/backgrounds/desertbg1/desert1full.png" id="1_ta43k"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+offset = Vector2(-0.01, 1.44)
+scale = Vector2(1.5, 1.5)
+transform = Transform2D(1.5, 0, 0, 1.5, -0.01, 1.44)
+follow_viewport_enabled = true
+follow_viewport_scale = 0.15
+scroll_base_offset = Vector2(-39.92, 0)
+scroll_base_scale = Vector2(1, 0)
+scroll_ignore_camera_zoom = true
+
+[node name="Desert1Full2" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+use_parent_material = true
+position = Vector2(1564.45, -98.7378)
+scale = Vector2(8.55309, 8.55309)
+texture = ExtResource("1_ta43k")
+
+[node name="Desert1Full3" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+use_parent_material = true
+position = Vector2(12511.1, -98.7378)
+scale = Vector2(8.55309, 8.55309)
+texture = ExtResource("1_ta43k")
+
+[node name="Desert1Full4" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+use_parent_material = true
+position = Vector2(23456.2, -98.682)
+scale = Vector2(8.55309, 8.55309)
+texture = ExtResource("1_ta43k")
+
+[node name="Desert1Full5" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
+use_parent_material = true
+position = Vector2(34402.9, -98.682)
+scale = Vector2(8.55309, 8.55309)
+texture = ExtResource("1_ta43k")
