@@ -14,10 +14,10 @@ texture = ExtResource("1_fnfll")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_direction = 2
-offset_left = 46.0
-offset_top = 32.0
-offset_right = 1326.0
-offset_bottom = 492.0
+offset_left = 16.0
+offset_top = 5.0
+offset_right = 1209.0
+offset_bottom = 695.0
 theme_override_font_sizes/normal_font_size = 33
 theme_override_font_sizes/bold_font_size = 66
 theme_override_font_sizes/italics_font_size = 66
@@ -26,12 +26,13 @@ theme_override_font_sizes/mono_font_size = 66
 bbcode_enabled = true
 text = "MILESTONE 0 CREDITS
 EggsAndBakey / Sefevi - Desert Tiles, Coding, Wasteland Tiles, Most Desert Music, Wasteland Music, Journey, Main Developer
-Sage + https://modarchive.org - Songea4 / 69478-sage13.xm
-Godot - Godot Game Engine, used to create this game.
+Sage + https://modarchive.org - Songea4 / 69478-sage13.xm (This is the song currently being played right now, however, in the future, it will be one of the songs for the sky levels in Doz Desert!
+Beau Buckley - Fanfare 03, the fanfare sound that currently plays when you beat the game, before these credits start!
+Godot Developers and Godot Contributors - Godot Game Engine, which is used to create this game.
 YouTube Tutorials - I would've lost my mind if these didn't exist!
 
 These credits are a simplified version of the CREDITS.md file!
-See you next time, in the air of Doz Desert, the cave of Doz Desert and the castle of Doz Desert..."
+See you next time in 0.0.2!"
 fit_content = true
 scroll_following = true
 tab_size = 6
