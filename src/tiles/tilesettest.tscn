@@ -1,0 +1,122 @@
+[gd_scene load_steps=53 format=3 uid="uid://cstg2upcbt8cm"]
+
+[ext_resource type="PackedScene" uid="uid://cxy1468nk4mmk" path="res://src/tiles/desert/sandtile_0.tscn" id="1_pnx34"]
+[ext_resource type="PackedScene" uid="uid://ch3ddqq0afprr" path="res://src/tiles/desert/sandtile_1.tscn" id="2_cyxb6"]
+[ext_resource type="PackedScene" uid="uid://b4jt3640s2hcl" path="res://src/tiles/desert/sandtile_2.tscn" id="3_36642"]
+[ext_resource type="PackedScene" uid="uid://c4r8cqksuvhxq" path="res://src/tiles/desert/sandtile_3.tscn" id="4_3lq8p"]
+[ext_resource type="PackedScene" uid="uid://2onl8k2qjwa8" path="res://src/tiles/desert/newdesert/1.tscn" id="5_5ndx5"]
+[ext_resource type="PackedScene" uid="uid://hp1pkfxw4v7p" path="res://src/tiles/desert/newdesert/10.tscn" id="6_j520y"]
+[ext_resource type="PackedScene" uid="uid://don75dpr28oqu" path="res://src/tiles/desert/newdesert/11.tscn" id="7_h2vdb"]
+[ext_resource type="PackedScene" uid="uid://dxgoxenkd1mu1" path="res://src/tiles/desert/newdesert/12.tscn" id="8_tdhs6"]
+[ext_resource type="PackedScene" uid="uid://d1leceeu6x27l" path="res://src/tiles/desert/newdesert/13.tscn" id="9_tuutr"]
+[ext_resource type="PackedScene" uid="uid://dkm2g21xl46qy" path="res://src/tiles/desert/newdesert/14.tscn" id="10_dpxey"]
+[ext_resource type="PackedScene" uid="uid://c5y7ks5q82yy1" path="res://src/tiles/desert/newdesert/15.tscn" id="11_d3y2c"]
+[ext_resource type="PackedScene" uid="uid://bha2xe5s7xgda" path="res://src/tiles/desert/newdesert/16.tscn" id="12_sraei"]
+[ext_resource type="PackedScene" uid="uid://ewnaieylhx27" path="res://src/tiles/desert/newdesert/17.tscn" id="13_24k2j"]
+[ext_resource type="PackedScene" uid="uid://d1wyv66fwm70r" path="res://src/tiles/desert/newdesert/18.tscn" id="14_l7r6h"]
+[ext_resource type="PackedScene" uid="uid://dlx575vns1o8c" path="res://src/tiles/desert/newdesert/19.tscn" id="15_srpqx"]
+[ext_resource type="PackedScene" uid="uid://clr5tm6qtv0rg" path="res://src/tiles/desert/newdesert/2.tscn" id="16_486w1"]
+[ext_resource type="PackedScene" uid="uid://cdi25x73sfagl" path="res://src/tiles/desert/newdesert/20.tscn" id="17_rcc6j"]
+[ext_resource type="PackedScene" uid="uid://b8aea8ciewgmw" path="res://src/tiles/desert/newdesert/21.tscn" id="18_c6my5"]
+[ext_resource type="PackedScene" uid="uid://b5esrj5x7yush" path="res://src/tiles/desert/newdesert/22.tscn" id="19_vkww4"]
+[ext_resource type="PackedScene" uid="uid://bsqaoyl4w1hi" path="res://src/tiles/desert/newdesert/23.tscn" id="20_6ruyj"]
+[ext_resource type="PackedScene" uid="uid://d2hsifis1cfpu" path="res://src/tiles/desert/newdesert/24.tscn" id="21_m84vq"]
+[ext_resource type="PackedScene" uid="uid://84cd4ghnrvub" path="res://src/tiles/desert/newdesert/25.tscn" id="22_clwae"]
+[ext_resource type="PackedScene" uid="uid://c34s4u3iytgde" path="res://src/tiles/desert/newdesert/26.tscn" id="23_8f1pr"]
+[ext_resource type="PackedScene" uid="uid://4ijkr7kadkpy" path="res://src/tiles/desert/newdesert/27.tscn" id="24_hfaty"]
+[ext_resource type="PackedScene" uid="uid://cdw2adb7cxnya" path="res://src/tiles/desert/newdesert/28.tscn" id="25_usl48"]
+[ext_resource type="PackedScene" uid="uid://cxsya3ubm1i4i" path="res://src/tiles/desert/newdesert/29.tscn" id="26_8lfvg"]
+[ext_resource type="PackedScene" uid="uid://mckmv1l8nkix" path="res://src/tiles/desert/newdesert/3.tscn" id="27_a5h70"]
+[ext_resource type="PackedScene" uid="uid://bmvp8fyyqf6p2" path="res://src/tiles/desert/newdesert/30.tscn" id="28_t11sn"]
+[ext_resource type="PackedScene" uid="uid://b4bsprvsemkm" path="res://src/tiles/desert/newdesert/31.tscn" id="29_iq58r"]
+[ext_resource type="PackedScene" uid="uid://cwdlwg566js47" path="res://src/tiles/desert/newdesert/32.tscn" id="30_gxbyh"]
+[ext_resource type="PackedScene" uid="uid://cdd1hxbloxu6p" path="res://src/tiles/desert/newdesert/33.tscn" id="31_jpwfq"]
+[ext_resource type="PackedScene" uid="uid://cannnn8rplm1g" path="res://src/tiles/desert/newdesert/34.tscn" id="32_q3j5k"]
+[ext_resource type="PackedScene" uid="uid://c46c0odmkv3pg" path="res://src/tiles/desert/newdesert/35.tscn" id="33_di4ta"]
+[ext_resource type="PackedScene" uid="uid://cyt6kwkpui8w1" path="res://src/tiles/desert/newdesert/36.tscn" id="34_3arbw"]
+[ext_resource type="PackedScene" uid="uid://d3lss7pmuxue7" path="res://src/tiles/desert/newdesert/37.tscn" id="35_vnpaa"]
+[ext_resource type="PackedScene" uid="uid://blslp8soamrax" path="res://src/tiles/desert/newdesert/38.tscn" id="36_tufje"]
+[ext_resource type="PackedScene" uid="uid://cuhqs6s2hfrnl" path="res://src/tiles/desert/newdesert/39.tscn" id="37_1ackp"]
+[ext_resource type="PackedScene" uid="uid://l1fs7aimijf1" path="res://src/tiles/desert/newdesert/4.tscn" id="38_yo2jt"]
+[ext_resource type="PackedScene" uid="uid://deu7xx40v7ntl" path="res://src/tiles/desert/newdesert/40.tscn" id="39_eyw63"]
+[ext_resource type="PackedScene" uid="uid://3oum2ygh7vjx" path="res://src/tiles/desert/newdesert/41.tscn" id="40_kurmp"]
+[ext_resource type="PackedScene" uid="uid://ciyyp6vurro46" path="res://src/tiles/desert/newdesert/42.tscn" id="41_2sok4"]
+[ext_resource type="PackedScene" uid="uid://37u64ma2eggn" path="res://src/tiles/desert/newdesert/43.tscn" id="42_iob3e"]
+[ext_resource type="PackedScene" uid="uid://c6t7dc5hkcqh3" path="res://src/tiles/desert/newdesert/44.tscn" id="43_s2qfn"]
+[ext_resource type="PackedScene" uid="uid://s07wn8l2dek1" path="res://src/tiles/desert/newdesert/45.tscn" id="44_wulnc"]
+[ext_resource type="PackedScene" uid="uid://85p26uwvlqth" path="res://src/tiles/desert/newdesert/5.tscn" id="45_5ji0j"]
+[ext_resource type="PackedScene" uid="uid://bvvhksedrar4f" path="res://src/tiles/desert/newdesert/6.tscn" id="46_8w0ch"]
+[ext_resource type="PackedScene" uid="uid://ca2d1dxlv7bx2" path="res://src/tiles/desert/newdesert/7.tscn" id="47_v8bhk"]
+[ext_resource type="PackedScene" uid="uid://b0jsnhpjvadrh" path="res://src/tiles/desert/newdesert/8.tscn" id="48_6rmeb"]
+[ext_resource type="PackedScene" uid="uid://bmk22j2p3tsl8" path="res://src/tiles/desert/newdesert/9.tscn" id="49_xdfus"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_3yspa"]
+resource_name = "Desert"
+scenes/1/scene = ExtResource("1_pnx34")
+scenes/2/scene = ExtResource("2_cyxb6")
+scenes/3/scene = ExtResource("3_36642")
+scenes/4/scene = ExtResource("4_3lq8p")
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_t8egt"]
+resource_name = "New Desert"
+scenes/1/scene = ExtResource("5_5ndx5")
+scenes/2/scene = ExtResource("16_486w1")
+scenes/3/scene = ExtResource("27_a5h70")
+scenes/4/scene = ExtResource("38_yo2jt")
+scenes/5/scene = ExtResource("45_5ji0j")
+scenes/6/scene = ExtResource("46_8w0ch")
+scenes/7/scene = ExtResource("47_v8bhk")
+scenes/8/scene = ExtResource("48_6rmeb")
+scenes/9/scene = ExtResource("49_xdfus")
+scenes/10/scene = ExtResource("6_j520y")
+scenes/11/scene = ExtResource("7_h2vdb")
+scenes/12/scene = ExtResource("8_tdhs6")
+scenes/12/display_placeholder = ExtResource("8_tdhs6")
+scenes/13/scene = ExtResource("9_tuutr")
+scenes/14/scene = ExtResource("10_dpxey")
+scenes/15/scene = ExtResource("11_d3y2c")
+scenes/16/scene = ExtResource("12_sraei")
+scenes/17/scene = ExtResource("13_24k2j")
+scenes/18/scene = ExtResource("14_l7r6h")
+scenes/19/scene = ExtResource("15_srpqx")
+scenes/20/scene = ExtResource("17_rcc6j")
+scenes/21/scene = ExtResource("18_c6my5")
+scenes/22/scene = ExtResource("19_vkww4")
+scenes/23/scene = ExtResource("20_6ruyj")
+scenes/24/scene = ExtResource("21_m84vq")
+scenes/25/scene = ExtResource("22_clwae")
+scenes/26/scene = ExtResource("23_8f1pr")
+scenes/27/scene = ExtResource("24_hfaty")
+scenes/28/scene = ExtResource("25_usl48")
+scenes/29/scene = ExtResource("26_8lfvg")
+scenes/30/scene = ExtResource("28_t11sn")
+scenes/31/scene = ExtResource("29_iq58r")
+scenes/32/scene = ExtResource("30_gxbyh")
+scenes/33/scene = ExtResource("31_jpwfq")
+scenes/34/scene = ExtResource("32_q3j5k")
+scenes/35/scene = ExtResource("33_di4ta")
+scenes/36/scene = ExtResource("34_3arbw")
+scenes/37/scene = ExtResource("35_vnpaa")
+scenes/38/scene = ExtResource("36_tufje")
+scenes/39/scene = ExtResource("37_1ackp")
+scenes/40/scene = ExtResource("39_eyw63")
+scenes/41/scene = ExtResource("40_kurmp")
+scenes/42/scene = ExtResource("41_2sok4")
+scenes/43/scene = ExtResource("42_iob3e")
+scenes/44/scene = ExtResource("43_s2qfn")
+scenes/45/scene = ExtResource("44_wulnc")
+scenes/45/display_placeholder = ExtResource("44_wulnc")
+
+[sub_resource type="TileSet" id="TileSet_gthby"]
+sources/0 = SubResource("TileSetScenesCollectionSource_3yspa")
+sources/1 = SubResource("TileSetScenesCollectionSource_t8egt")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+top_level = true
+texture_filter = 3
+tile_set = SubResource("TileSet_gthby")
+rendering_quadrant_size = 32
+format = 2
+layer_0/name = "New Desert"
