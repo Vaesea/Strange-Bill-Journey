@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://3oum2ygh7vjx"]
+
+[ext_resource type="Texture2D" uid="uid://duknsm7wsn33b" path="res://data/images/tiles/desert/desertnew.png" id="1_bc5lb"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tile" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Tile"]
+texture_filter = 3
+position = Vector2(48, -4)
+texture = ExtResource("1_bc5lb")
+region_enabled = true
+region_rect = Rect2(0, 512, 96, 64)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Tile"]
+polygon = PackedVector2Array(0, -16, 96, -16, 32, 16, 0, 16)
