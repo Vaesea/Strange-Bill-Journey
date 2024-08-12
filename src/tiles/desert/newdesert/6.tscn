@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvvhksedrar4f"]
+
+[ext_resource type="Texture2D" uid="uid://duknsm7wsn33b" path="res://data/images/tiles/desert/desertnew.png" id="1_wgsuw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yi8up"]
+size = Vector2(32, 32)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Tile" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Tile"]
+texture_filter = 3
+position = Vector2(16, 1)
+texture = ExtResource("1_wgsuw")
+flip_h = true
+region_enabled = true
+region_rect = Rect2(512, 64, 96, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile"]
+position = Vector2(16, 16)
+shape = SubResource("RectangleShape2D_yi8up")
