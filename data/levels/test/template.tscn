@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0itrpdhf4kq8"]
+
+[ext_resource type="PackedScene" uid="uid://bbh3uk8ehe1rs" path="res://src/objects/creatures/bill.tscn" id="1_pnnca"]
+[ext_resource type="PackedScene" uid="uid://dnea7pdfhkarv" path="res://src/objects/goal/endsign.tscn" id="2_6tdup"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Interactive Tiles" type="Node2D" parent="."]
+
+[node name="Background Tiles" type="Node2D" parent="."]
+
+[node name="Foreground Tiles" type="Node2D" parent="."]
+
+[node name="Objects" type="Node2D" parent="."]
+
+[node name="Bill" parent="Objects" instance=ExtResource("1_pnnca")]
+
+[node name="Area2D" parent="Objects" instance=ExtResource("2_6tdup")]
+position = Vector2(160, 0)
