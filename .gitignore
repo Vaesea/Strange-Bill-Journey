@@ -1,5 +1,6 @@
 # SBJ specific ignores
 .export/
+.media/
 
 # Godot 4+ specific ignores
 .godot/
