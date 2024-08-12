@@ -14,4 +14,4 @@ region_enabled = true
 region_rect = Rect2(0, 416, 96, 96)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Tile"]
-polygon = PackedVector2Array(72, -32, 96, -32, 96, 32, 0, 32, 0, -5)
+polygon = PackedVector2Array(64, -32, 96, -32, 96, 32, 0, 32, 0, 0)
