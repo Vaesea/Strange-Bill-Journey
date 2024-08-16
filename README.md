@@ -8,7 +8,7 @@ Current Version: Pre-0.0.1.0, NOT AN ACTUAL VERSION BECAUSE 0.0.1.0 WILL BE THE 
 # How To Label Versions:
 First Number is Release, so let's say it's 1 for the example. 0 means it's not in any release version yet.
 
-Second Number is Major, so let's say it's 2 for the example. 0 means it's not any major new version. It can also mean a new milestone, with the last version of the game with the number being 2 would be the finished Milestone 1 (0.2.9.0, for example)
+Second Number is Major, so let's say it's 2 for the example. 0 means it's not any major new version. It can also mean a new milestone, with the last version of the game with the number being 1 would be the finished Milestone 1 (0.1.9.0, for example)
 
 Third Number is Minor, so let's say it's 3 for example. 0 means it's either not a new minor version or it's the first version of a milestone, (0.3.0.0, for example)
 
